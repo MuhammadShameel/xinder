@@ -7,7 +7,8 @@
 }
 */
 .nav-link {
-  padding-right: 16px !important;
+  padding: 10px 8px 10px 8px !important;
+  margin-right: 16px;
 }
 .nav-link {
   color: #ffff !important;
@@ -19,7 +20,11 @@
 .navbar-toggler1 {
   color: #ffff !important;
 }
-.nav-btn
+.nav-btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+}
 
 /* navbar  */
 
@@ -31,3 +36,30 @@
 }
 
 /* Header  */
+/* Hero section  */
+.hero-head {
+  font-weight: 800;
+  color: #ffff;
+  gap: 24px;
+  word-spacing: 12px;
+}
+.hero-input {
+  height: 48px;
+  width: 515px;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 20px 12px 45px;
+  margin-right: 16px;
+}
+.hero-inpput-btn {
+  background-color: #be123c;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+.search-text {
+  padding: 0px 16px 0px 16px;
+  color: #ffff;
+  line-height: 24px;
+}
+/* Hero section  */
