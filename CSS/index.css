@@ -1,0 +1,33 @@
+/* navbar */
+/* .nav-btn {
+  width: 7.938rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+*/
+.nav-link {
+  padding-right: 16px !important;
+}
+.nav-link {
+  color: #ffff !important;
+}
+.nav-item {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.navbar-toggler1 {
+  color: #ffff !important;
+}
+.nav-btn
+
+/* navbar  */
+
+/* Header  */
+.header {
+  height: 667px;
+  width: 100%;
+  background-color: #881337;
+}
+
+/* Header  */
