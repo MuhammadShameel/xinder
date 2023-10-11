@@ -6,6 +6,7 @@
   border-radius: 5px;
 }
 */
+
 .nav-link {
   padding: 10px 8px 10px 8px !important;
   margin-right: 16px;
@@ -37,11 +38,15 @@
 
 /* Header  */
 /* Hero section  */
+.hero-section {
+  margin-top: 170.5px;
+}
 .hero-head {
   font-weight: 800;
   color: #ffff;
   gap: 24px;
-  word-spacing: 12px;
+  /* word-spacing: 16px; */
+  line-height: 79.2px;
 }
 .hero-input {
   height: 48px;
@@ -61,5 +66,19 @@
   padding: 0px 16px 0px 16px;
   color: #ffff;
   line-height: 24px;
+}
+.option-text {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 4px 4px 4px 4px;
+  color: #ffff;
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.hero-img {
+  height: 498.5px;
+  position: relative;
+  top: -68px;
 }
 /* Hero section  */
