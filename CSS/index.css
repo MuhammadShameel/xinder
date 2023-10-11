@@ -77,8 +77,9 @@
   font-weight: 400;
 }
 .hero-img {
-  height: 498.5px;
+  height: 478px;
   position: relative;
-  top: -68px;
+  top: -48px;
+  /* right: 30px; */
 }
 /* Hero section  */
