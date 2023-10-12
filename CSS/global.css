@@ -19,3 +19,6 @@ h4 {
   width: 1280px;
   margin: 0px 80px 0px 80px !important;
 } */
+li {
+  list-style: none;
+}
