@@ -341,5 +341,6 @@
   background-color: #475569;
 }
 /* be incredible  */
-
-/* xyz  */
+.hover {
+  cursor: pointer;
+}
