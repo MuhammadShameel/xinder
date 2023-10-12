@@ -207,6 +207,7 @@
   margin: auto 10px;
   background-color: #ffffff;
   /* box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white; */
+  border-radius: 10;
   display: grid;
   place-items: center;
 }
@@ -244,3 +245,11 @@
   margin-bottom: 110px !important;
 }
 /* Last master piece */
+
+/* Expanding Services  */
+.expanding-services {
+  width: 100%;
+  height: 522px;
+  padding: 80px;
+}
+/* Expanding Services  */
