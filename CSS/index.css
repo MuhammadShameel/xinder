@@ -91,12 +91,15 @@
 .sponsor-img {
   margin-right: 40px;
   margin-left: 40px;
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 .marquee-container {
-  width: 100%;
+  width: 1280px;
+  margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
-  background-color: #f1f1f1;
 }
 
 .marquee {
@@ -104,10 +107,8 @@
   animation: marquee 10s linear infinite;
 }
 
-.sponsor-img {
-  display: inline-block;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
+.marquee:hover {
+  animation-play-state: paused;
 }
 
 .sponsor-img:hover {
