@@ -80,3 +80,21 @@ function slideLeft() {
   }
 }
 // last masterpiece
+
+// $(document).ready(function () {
+//   $("#next-slide").click(function (e) {
+//     e.preventDefault();
+//     $(".slider-card.active")
+//       .removeClass("active")
+//       .next(".slider-card")
+//       .addClass("active");
+//   });
+
+//   $("#prev-slide").click(function (e) {
+//     e.preventDefault();
+//     $(".slider-card.active")
+//       .removeClass("active")
+//       .prev(".slider-card")
+//       .addClass("active");
+//   });
+// });
