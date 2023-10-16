@@ -13,9 +13,16 @@
 }
 .nav-link {
   color: #ffff !important;
+  transition: ease 0.3s;
+}
+.nav-link:hover {
+  color: rgb(190, 18, 60) !important;
+}
+.nav-link {
+  color: #ffff !important;
 }
 .nav-btn:hover {
-  background-color: rgb(190, 18, 60);
+  background-color: white;
 }
 .nav-item {
   font-size: 16px !important;
@@ -276,8 +283,12 @@
   border: none;
   border-radius: 5px;
   margin: 0 auto 0 auto;
+  color: white;
+  transition: ease 0.3s;
 }
-
+.find-service-btn:hover {
+  background-color: #881337;
+}
 /* Expanding Services  */
 
 /* Best solution  */
@@ -296,6 +307,12 @@
   color: #ffff;
   border: 1px solid white;
   margin-top: 24px;
+  transition: ease 0.3s;
+}
+.explore-xinder-button:hover {
+  background-color: #ffff;
+  color: #475569;
+  font-weight: 500;
 }
 /* Best solution  */
 
