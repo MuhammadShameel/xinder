@@ -373,6 +373,12 @@
 .hover {
   cursor: pointer;
 }
+.foot-li {
+  transition: ease 0.3s;
+}
+.foot-li:hover {
+  color: rgb(190, 18, 60);
+}
 /* 
 .slider-container {
   display: flex;
