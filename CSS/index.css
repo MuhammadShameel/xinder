@@ -51,6 +51,7 @@
 /* Hero section  */
 .hero-section {
   margin-top: 170.5px;
+  width: auto;
 }
 .hero-head {
   font-weight: 800;
@@ -90,9 +91,17 @@
   border-radius: 4px;
   padding: 4px 4px 4px 4px;
   color: #ffff;
-  margin-right: 8px;
+  margin: 10px 8px 10px 0px;
   font-size: 14px;
   font-weight: 400;
+  background-color: transparent;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+.option-text:hover {
+  background-color: white;
+  color: #be123c;
+  font-weight: 500;
 }
 .hero-img {
   height: 478px;
