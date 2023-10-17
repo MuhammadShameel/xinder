@@ -41,6 +41,15 @@
     display: flex;
     justify-content: center;
   }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 0.7rem !important;
+  }
+  h4 {
+    font-size: 1rem !important;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
