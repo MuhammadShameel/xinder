@@ -98,3 +98,28 @@ function slideLeft() {
 //       .addClass("active");
 //   });
 // });
+
+var marquee = document.getElementById("myMarquee");
+var isMarqueeRunning = true; // Flag to track if the marquee is running
+
+function startMarquee(element) {
+  if (!isMarqueeRunning) {
+    element.start();
+    isMarqueeRunning = true;
+  }
+}
+
+function stopMarquee(element) {
+  if (isMarqueeRunning) {
+    element.stop();
+    isMarqueeRunning = false;
+  }
+}
+
+function toggleMarquee(element) {
+  if (isMarqueeRunning) {
+    stopMarquee(element);
+  } else {
+    startMarquee(element);
+  }
+}

@@ -95,6 +95,12 @@
     width: 40%; /* Make the image 100% of its container width */
     top: 100; /* Reposition the image as needed for smaller screens */
   }
+  .marquee-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+  }
 }
 
 @media (min-width: 1399.98px) and (max-width: 2560px) {
