@@ -117,7 +117,7 @@
     <!-- sponsor  -->
 
     <!-- Featured art category  -->
-    <!-- <section class="featured-art-category">
+    <section class="featured-art-category hide-md hide-sm hide-xs">
         <div class="container">
             <div class="art-title d-flex justify-content-between ">
                 <span>
@@ -129,28 +129,82 @@
             <div class="d-flex justify-content-center" style="padding-top: 40px; padding-bottom: 40px;">
                 <div class="content-img">
                     <img src="./assets/images/content_box_1.png" alt="" class="img-fluid content-img"
-                        style="height: 300px;padding: 0px 12px 0px 12px;">
+                        style="padding: 0px 12px 0px 12px;">
                 </div>
                 <div class="content-img">
                     <img src="./assets/images/content_box_2.png" alt="" class="img-fluid content-img"
-                        style="height: 300px;padding: 0px 12px 0px 12px;">
+                        style="padding: 0px 12px 0px 12px;">
                 </div>
                 <div class="content-img">
                     <img src="./assets/images/content_box_3.png" alt="" class="img-fluid content-img"
-                        style="height: 300px;padding: 0px 12px 0px 12px;">
+                        style="padding: 0px 12px 0px 12px;">
                 </div>
                 <div class="content-img">
                     <img src="./assets/images/content_box_4.png" alt="" class="img-fluid content-img"
-                        style="height: 300px;padding: 0px 12px 0px 12px;">
+                        style="padding: 0px 12px 0px 12px;">
                 </div>
                 <div class="content-img">
                     <img src="./assets/images/content_box_5.png" alt="" class="img-fluid content-img"
-                        style="height: 300px;padding: 0px 12px 0px 12px;">
+                        style="padding: 0px 12px 0px 12px;">
                 </div>
             </div>
 
         </div>
-    </section> -->
+    </section>
+    <div class="container  hide-xxl hide-xl hide-lg">
+        <div class="art-title d-flex justify-content-between ">
+            <span>
+                <h3 style="color: #0F172A;">Featured art categories</h3>
+            </span>
+            <span class="mt-1 sponsor-img-categories categories mt-3 ">View All Categories <img
+                    src="./assets/images/arrow-right.png" alt=""></span>
+        </div>
+        <div class="container-phone">
+
+            <div class="slide" style="
+            background-image: url('./assets/images/content_box_1.png');
+          ">
+                <h3>Vases Family</h3>
+            </div>
+            <div class="slide active" style="
+            background-image: url('./assets/images/content_box_2.png');
+          ">
+                <h3>Camel Portrait</h3>
+            </div>
+            <div class="slide " style="
+            background-image: url('./assets/images/content_box_3.png');
+          ">
+                <h3>Euforia</h3>
+            </div>
+            <div class="slide" style="
+            background-image: url('./assets/images/content_box_4.png');
+    ">
+                <h3>Classic Watch</h3>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        const slidesPhone = document.querySelectorAll(".slide");
+
+        for (const slide of slidesPhone) {
+            slide.addEventListener("click", () => {
+                clearActiveClasses();
+                slide.classList.add("active");
+            });
+        }
+
+        function clearActiveClasses() {
+            slidesPhone.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+        }
+
+    </script>
     <!-- Featured art category  -->
 
     <!-- Lastest masterpiece  -->
