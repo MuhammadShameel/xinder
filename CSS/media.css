@@ -76,6 +76,15 @@
     padding: 10px;
     background-color: #f1f5f9;
   }
+  .art-events {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  .art-events-heading {
+    font-size: 20px !important;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
