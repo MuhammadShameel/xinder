@@ -60,6 +60,9 @@
     padding: 5px;
     background-color: #475569;
   }
+  .slide.active {
+    flex: 8;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -91,6 +94,9 @@
     padding: 40px;
     background-color: #475569;
   }
+  .slide.active {
+    flex: 3;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -103,6 +109,9 @@
     height: auto;
     padding: 80px;
     background-color: #475569;
+  }
+  .slide.active {
+    flex: 2;
   }
 }
 
