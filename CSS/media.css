@@ -24,12 +24,7 @@
     height: 522px;
     padding: 10px;
   }
-  .art-gal {
-    height: 544px;
-    width: 100%;
-    padding: 10px;
-    background-color: #f1f5f9;
-  }
+
   h1 {
     font-size: 40px !important;
     line-height: 40px !important;
@@ -69,6 +64,18 @@
   .slide.active {
     flex: 8;
   }
+  .be-incredible {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #475569;
+  }
+  .art-gal {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f5f9;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -103,6 +110,18 @@
   .slide.active {
     flex: 3;
   }
+  .be-incredible {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #475569;
+  }
+  .art-gal {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f5f9;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -118,6 +137,18 @@
   }
   .slide.active {
     flex: 2;
+  }
+  .be-incredible {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #475569;
+  }
+  .art-gal {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f5f9;
   }
 }
 
