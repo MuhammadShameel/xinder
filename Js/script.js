@@ -98,3 +98,5 @@ function slideLeft() {
 //       .addClass("active");
 //   });
 // });
+
+// Slick slider init

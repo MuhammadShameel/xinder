@@ -24,6 +24,12 @@
     height: 522px;
     padding: 10px;
   }
+  .art-gal {
+    height: 544px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f5f9;
+  }
   h1 {
     font-size: 40px !important;
     line-height: 40px !important;
@@ -128,6 +134,10 @@
     height: auto;
     padding: 80px;
     background-color: #475569;
+  }
+  .art-gal-content {
+    margin-right: 0px !important;
+    margin-left: 80px !important;
   }
 }
 
