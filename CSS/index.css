@@ -406,12 +406,6 @@
   height: 300px;
 } */
 
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
-
-* {
-  box-sizing: border-box;
-}
-
 .container-phone {
   width: 100%;
   display: flex;

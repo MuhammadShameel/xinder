@@ -131,6 +131,12 @@
     padding: 10px;
     background-color: #f1f5f9;
   }
+  .art-events {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -158,6 +164,12 @@
     width: 100%;
     padding: 10px;
     background-color: #f1f5f9;
+  }
+  .art-events {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
   }
 }
 
