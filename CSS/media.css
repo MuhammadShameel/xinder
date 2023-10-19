@@ -85,6 +85,12 @@
   .art-events-heading {
     font-size: 20px !important;
   }
+  .add-more {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #0f172a;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -137,6 +143,12 @@
     background-color: #ffffff;
     padding: 20px;
   }
+  .add-more {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #0f172a;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -171,6 +183,12 @@
     background-color: #ffffff;
     padding: 20px;
   }
+  .add-more {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #0f172a;
+  }
 }
 
 /* // Large devices (desktops, less than 1200px) */
@@ -190,6 +208,12 @@
   .art-gal-content {
     margin-right: 0px !important;
     margin-left: 80px !important;
+  }
+  .add-more {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #0f172a;
   }
 }
 
