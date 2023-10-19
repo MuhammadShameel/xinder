@@ -91,6 +91,9 @@
     padding: 20px;
     background-color: #0f172a;
   }
+  .mobile-footer-li {
+    margin-left: 44px;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -148,6 +151,9 @@
     width: 100%;
     padding: 20px;
     background-color: #0f172a;
+  }
+  .mobile-footer-li {
+    margin-left: 44px;
   }
 }
 
